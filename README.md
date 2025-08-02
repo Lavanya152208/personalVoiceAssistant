@@ -56,3 +56,91 @@ bash
 bash
 
     python cherry.py
+
+-----------------------------------------------------------------------------------------------
+
+🧠 Voice Commands You Can Try
+
+Command Example	What It Does
+
+Cherry, what time is it?	Tells you the current time
+
+Cherry, play Despacito	Plays Despacito on YouTube
+
+Cherry, search for Python	Searches Python on Google
+
+Cherry, who is Elon Musk?	Reads a short Wikipedia bio
+
+Cherry, who are you?	Introduces itself
+
+Cherry, close	Gracefully exits the assistant
+
+-----------------------------------------------------------------------------------------------
+
+🔒 Requirements
+
+Python 3.7+
+
+A working microphone
+
+Internet connection (for search, YouTube, Wikipedia)
+
+-----------------------------------------------------------------------------------------------
+
+📁 Folder Structure
+graphql
+
+    cherry-voice-assistant/
+    │
+    ├── cherry.py                  # Main script
+    ├── README.md                  # You're reading it now!
+    ├── requirements.txt           # All dependencies
+    ├── dist/                      # Contains the EXE version (if built)
+    └── assets/                    # Optional: logos or sound files
+
+-----------------------------------------------------------------------------------------------
+ 
+🔧 Building the Executable (Optional)
+
+If you want to convert your .py file to .exe:
+
+bash
+
+    pip install pyinstaller
+    pyinstaller --onefile --noconsole cherry.py
+Your .exe file will be available inside the dist/ folder.
+
+-----------------------------------------------------------------------------------------------
+
+💡 Future Improvements (Ideas)
+
+📅 Calendar integration
+
+📧 Email reading and sending
+
+🗂️ File search and opening
+
+💬 ChatGPT API integration
+
+🌦️ Weather forecast
+
+-----------------------------------------------------------------------------------------------
+
+🙌 Credits
+
+Developed by Lavanya Karanam
+
+Powered by: speech_recognition, pyttsx3, wikipedia, pywhatkit
+
+-----------------------------------------------------------------------------------------------
+
+⭐ Show Your Support
+
+If you like this project:
+
+Star this repo 🌟
+
+Share it with your friends 🚀
+
+Contribute to its development 🧑‍💻
+
