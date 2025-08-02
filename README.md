@@ -39,3 +39,20 @@
    ```bash
    git clone https://github.com/your-username/cherry-voice-assistant.git
    cd cherry-voice-assistant
+2.Create a Virtual Environment 
+
+bash
+
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+3.Install Dependencies
+
+bash
+
+    pip install -r requirements.txt
+
+4.Run the Assistant
+
+bash
+
+    python cherry.py
